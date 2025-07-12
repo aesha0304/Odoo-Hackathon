@@ -108,5 +108,3 @@ Odoo-Hackathon/
 MIT
 
 ---
-
-For more, see the code and issues at: https://github.com/aesha0304/Odoo-Hackathon 
