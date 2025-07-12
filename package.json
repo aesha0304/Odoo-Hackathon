@@ -1,0 +1,20 @@
+{
+  "name": "skill-swap-platform",
+  "version": "1.0.0",
+  "description": "A modern skill swapping platform with responsive design",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "keywords": ["skill-swap", "react", "nodejs", "responsive"],
+  "author": "Skill Swap Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 
